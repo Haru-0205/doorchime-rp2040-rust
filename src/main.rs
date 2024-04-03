@@ -144,7 +144,7 @@ fn main() -> ! {
             pwm.set_top(0);
             led.set_low().ok().unwrap();
 
-            delay.delay_ms(1800)
+            delay.delay_ms(1000)
         } else {
         }
     }
